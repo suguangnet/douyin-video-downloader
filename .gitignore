@@ -1,0 +1,33 @@
+# 浏览器配置目录（含登录态 / Cookie，切勿提交）
+.dy-profile/
+
+# 本地个人配置
+dy_gui_config.json
+
+# 运行与构建产物
+__pycache__/
+*.py[cod]
+build/
+dist/
+logs/
+test_out/
+发布包/
+*.spec
+
+# 体积较大的二进制与分发包（通过 Releases 提供）
+ffmpeg.exe
+*.zip
+
+# 下载/测试产生的媒体文件
+*.mp4
+*.m4a
+*.mp3
+*.part
+
+# 与本项目无关的产物
+PPT提取/
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
